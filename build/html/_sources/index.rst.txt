@@ -11,6 +11,7 @@ Welcome to Docs's documentation!
    :caption: Contents:
 
    hello
+   mysql
 
 Indices and tables
 ==================
