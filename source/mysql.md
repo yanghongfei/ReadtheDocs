@@ -1,17 +1,7 @@
-[Toc]
-
 # MySQL57主从复制、备份恢复、故障处理
 
 
 ## 1. MySQL57主从配置
-
-### Experimental description
-name | IP | Port 
----|--- | ---
-Master | 172.16.0.18| 3306
-Slave | 172.16.0.20  | 3307  
-  
-      
 
 
 ### 1.1. 安装MySQL57
