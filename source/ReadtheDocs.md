@@ -1,4 +1,4 @@
-# Read The Docs
+# 安装文档
 > Read the Docs是一个在线文档托管服务， 你可以从各种版本控制系统中导入文档，如果你使用webhooks， 那么每次提交代码后可以自动构建并上传至readthedocs网站，非常方便。
 
 ## 电子书写作方式

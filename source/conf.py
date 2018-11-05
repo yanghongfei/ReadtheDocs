@@ -15,19 +15,17 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+
+
+# -- Project information -----------------------------------------------------
 import sphinx_rtd_theme
 from recommonmark.parser import CommonMarkParser
+
 
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-
-
-
-
-# -- Project information -----------------------------------------------------
-
-project = 'Docs'
+project = 'docs'
 copyright = '2018, yanghongfei'
 author = 'yanghongfei'
 
@@ -56,12 +54,11 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-
+#from recommonmark.parser import CommonMarkParser
 source_parsers = {
     '.md': CommonMarkParser,
 }
 source_suffix = ['.rst', '.md']
-
 #source_suffix = '.rst'
 
 # The master toctree document.
@@ -115,7 +112,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Docsdoc'
+htmlhelp_basename = 'docsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -142,7 +139,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Docs.tex', 'Docs Documentation',
+    (master_doc, 'docs.tex', 'docs Documentation',
      'yanghongfei', 'manual'),
 ]
 
@@ -152,7 +149,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'docs', 'Docs Documentation',
+    (master_doc, 'docs', 'docs Documentation',
      [author], 1)
 ]
 
@@ -163,8 +160,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Docs', 'Docs Documentation',
-     author, 'Docs', 'One line description of project.',
+    (master_doc, 'docs', 'docs Documentation',
+     author, 'docs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
