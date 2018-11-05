@@ -1,5 +1,8 @@
 # Read The Docs
+- Demo地址：https://yanghongfei.readthedocs.io
+
 > Read the Docs是一个在线文档托管服务， 你可以从各种版本控制系统中导入文档，如果你使用webhooks， 那么每次提交代码后可以自动构建并上传至readthedocs网站，非常方便。
+
 
 ## 电子书写作方式
 > Sphinx + GitHub + ReadtheDocs 作为文档写作工具，用 Sphinx 生成文档，GitHub 托管文档，再导入到 ReadtheDocs
@@ -90,7 +93,7 @@ source_suffix = ['.rst', '.md']
 $ yum install nginx -y
 server {
         listen       80;
-        server_name readthedocs.shinezone.com;
+        server_name readthedocs.domain.com;
         root   /opt/ReadtheDocs/build/html;
         index  index.php index.html index.htm;
         access_log off;
@@ -109,7 +112,7 @@ $ make html  #会在bulid下生成html文件
 
 - 查看效果图
 
-![效果图](_static/index.jpg)
+![效果图](source/_static/index.jpg)
 
 
 
@@ -213,6 +216,6 @@ make html #生成html文件
 
 效果图：
 
-![readthedocs](_static/readthedocs.jpg)
+![readthedocs](source/_static/readthedocs.jpg)
 
-![hello](_static/helo.jpg)
+![hello](ource/static/helo.jpg)
