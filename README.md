@@ -1,5 +1,3 @@
-<a href="https://asciinema.org/a/H6cvHggetDYr9EHC8VqZtzIsG" target="_blank"><img src="https://asciinema.org/a/H6cvHggetDYr9EHC8VqZtzIsG.svg" /></a>
-[![asciicast](https://asciinema.org/a/H6cvHggetDYr9EHC8VqZtzIsG.svg)](https://asciinema.org/a/H6cvHggetDYr9EHC8VqZtzIsG)
 Table of Contents
 =================
 
